@@ -1,0 +1,1018 @@
+/* Updated Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(177, 163, 146);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    max-height: 80%; /* Set a maximum height for the modal */
+    width: auto; /* Set a width for the modal */
+}
+
+.modal-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: #000000;
+}
+
+.modal-body {
+    text-align: center;
+    max-height: 100%; /* Set a maximum height for the modal body */
+    overflow-y: auto; /* Enable vertical scrolling for the modal body */
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 110px;
+}
+
+.close {
+    color: black;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .modal {
+    max-height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .modal-header h2 {
+    font-size: 18px;
+  }
+
+  .modal-body {
+    max-height: 100%;
+  }
+
+  .modal-content img {
+    margin-top: 50px;
+  }
+
+  .close {
+    font-size: 25px;
+    top: 5px;
+    right: 5px;
+  }
+}
+
+/*css fro Illustartion new and 18-21-22-23*/
+
+
+/*header for the illustration new page */
+.header-illnew{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    height: 400px;
+    background-image: url(/Illustration/jae22.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+.header-illnew h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Common h1 styles for both headers */
+.header-illnew h1 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 150px;
+    margin: 10px;
+    color: #ffffff /* Text color of the h1 */
+}
+
+/* For p for 2018-2021 date */
+.P-time1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #000000;
+  font-size: 85px;
+  margin-left: 200px;
+  top: 20px;
+}
+
+body {
+ margin: 0;
+  position: relative;
+  height: 100%; /* Ensure the body takes up the full height of the viewport */
+}
+
+.header-ill18 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  height: 400px;
+  background-image: url(/Illustration/2018-2021/lay2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-ill18 h1 {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-size: 150px;
+  margin: 10px;
+  color: #ffffff /* Text color of the h1 */
+}
+.header-ill18 h1::after {
+  content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.content-illu18 {
+  max-width: 100%;
+  /* overflow: hidden; */ /* Remove or adjust this line */
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+.content-illunew{
+  max-width: 100%;
+  /* overflow: hidden; */ /* Remove or adjust this line */
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+
+
+.image-container-18 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+
+.image1 {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.image2 {
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 800px;
+  left: 200px;
+  z-index: 2;
+}
+
+.image3 {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  margin-top: 135%;
+  z-index: 1;
+  left: 0;
+}
+.image4 {
+  width: 75%; /* Adjust the width as needed */
+  height: auto;
+  position: absolute;
+  margin-top: 185%;
+  left: 25%; /* Adjust the left position as needed */
+  z-index: 2; /* Ensure image4 is above image3 */
+}
+.image5 {
+  width: 75%;
+  height: auto;
+  position: absolute;
+  margin-top: 250%; /* Adjust the margin-top to position below image4 */
+  left: 25%;
+  z-index: 2;
+}
+
+.image6 {
+  width: 75%;
+  height: auto;
+  position: absolute;
+  margin-top: 380%; /* Adjust the margin-top to position below image4 */
+  left: 25%;
+  z-index: 2;
+}
+
+.image7 {
+  width: 45%;
+  height: auto;
+  margin-left: -900px;
+  top: 0;
+  left: 0;
+}
+.image8 {
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 800px;
+  left: 149px;
+  z-index: 2;
+}
+
+.image9 {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 120px;
+  z-index: 1;
+}
+
+.image10 {
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 810px;
+  left: -100px;
+  z-index: 0;
+}
+
+
+.text {
+  margin-right: 20px; /* Adjust the spacing between the text and image1 */
+  position: absolute;
+  top: 200px; /* Adjust the top position as needed */
+  right: 100px; /* Adjust the left position as needed */
+  z-index: 3; /* Ensure the text is above both image1 and image2 */
+  font-size: 100px; /* Set the desired font size */
+  color: rgba(255, 37, 102, 1); /* Set the desired text color */
+}
+.text2{
+  margin-right: 20px;
+  position: absolute;
+  top: 350px; /* Adjust the top position to place it below text */
+  right: 50px;
+  text-align: center;
+  z-index: 3;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+
+}
+.text3 {
+  margin-top: 125%;
+  margin-right: 20px; /* Adjust the spacing between the text and image1 */
+  position: absolute;
+  top: 200px; /* Adjust the top position as needed */
+  right: 45px; /* Adjust the left position as needed */
+  z-index: 3; /* Ensure the text is above both image1 and image2 */
+  font-size: 100px; /* Set the desired font size */
+  color: rgba(255, 167, 86, 1); /* Set the desired text color */
+}
+.text4 {
+  margin-top: 125%;
+  margin-right: 20px;
+  position: absolute;
+  top: 350px; /* Adjust the top position to place it below text */
+  right: 50px;
+  text-align: center;
+  z-index: 3;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+
+}
+
+.text5 {
+  margin-top: 410%;
+  margin-right: -20px;
+  position: absolute;
+  top: 350px; /* Adjust the top position to place it below text */
+  right: 50px;
+  text-align: center;
+  z-index: 3;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+
+}
+
+.text6 {
+  margin-right: 20px; /* Adjust the spacing between the text and image1 */
+  position: absolute;
+  top: 200px; /* Adjust the top position as needed */
+  right: 100px; /* Adjust the left position as needed */
+  z-index: 3; /* Ensure the text is above both image1 and image2 */
+  font-size: 100px; /* Set the desired font size */
+  color: rgb(255, 29, 29); /* Set the desired text color */
+}
+.text7 {
+  margin-right: 20px;
+  position: absolute;
+  top: 350px; /* Adjust the top position to place it below text */
+  right: 160px;
+  text-align: center;
+  z-index: 3;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+
+}
+
+.text8 {
+  margin-right: 20px;
+  position: absolute;
+  top: 105%; /* Adjust the top position to place it below text */
+  left:  0px;
+  text-align:left;
+  z-index: 3;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+
+}
+
+.text9 {
+  margin-top: 420%;
+  margin-right: 900px;
+  position: absolute;
+  top: 350px; /* Adjust the top position to place it below text */
+  right: 50px;
+  text-align: center;
+  z-index: 3;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+
+.rectangle {
+  position: absolute;
+  top: 108.5%; /* Adjust the top position to place it below text */
+  right: 0px;
+  width: 72%; /* Adjust the width of the rectangle as needed */
+  height: 30px; /* Adjust the height of the rectangle as needed */
+  background-color: rgb(0, 0, 0); /* Set the background color as needed */
+  z-index: 2; /* Ensure the rectangle is behind other elements */
+}
+
+
+.vertical-text {
+  writing-mode: vertical-lr; /* Set the writing mode to vertical */
+  text-orientation: upright; /* Set the text orientation to upright */
+  transform: rotate(360deg); /* Rotate the text 180 degrees to make it vertical */
+  position: absolute; /* Fixed position to keep it in place */
+  top: 53%; /* Adjust the top position as needed */
+  left: 50px; /* Adjust the left position as needed */
+  transform-origin: right bottom; /* Set the transform origin to the bottom right */
+  background-color: #000000; /* Set the background color as needed */
+  padding: 10px; /* Add padding for better visibility */
+  z-index: 3; /* Ensure the text is above other elements */
+}
+
+.vertical-text2 {
+  writing-mode: vertical-lr; /* Set the writing mode to vertical */
+  text-orientation: upright; /* Set the text orientation to upright */
+  transform: rotate(360deg); /* Rotate the text 180 degrees to make it vertical */
+  position: absolute; /* Fixed position to keep it in place */
+  top: 19%; /* Adjust the top position as needed */
+  left: 50px; /* Adjust the left position as needed */
+  transform-origin: right bottom; /* Set the transform origin to the bottom right */
+  background-color: #000000; /* Set the background color as needed */
+  padding: 10px; /* Add padding for better visibility */
+  z-index: 3; /* Ensure the text is above other elements */
+}
+
+.vertical-text3 {
+  writing-mode: vertical-lr; /* Set the writing mode to vertical */
+  text-orientation: upright; /* Set the text orientation to upright */
+  transform: rotate(360deg); /* Rotate the text 180 degrees to make it vertical */
+  position: absolute; /* Fixed position to keep it in place */
+  top: 90%; /* Adjust the top position as needed */
+  right: 290px; /* Adjust the left position as needed */
+  transform-origin: right bottom; /* Set the transform origin to the bottom right */
+  background-color: #000000; /* Set the background color as needed */
+  padding: 10px; /* Add padding for better visibility */
+  z-index: 3; /* Ensure the text is above other elements */
+}
+
+.vertical-text4 {
+  writing-mode: vertical-lr; /* Set the writing mode to vertical */
+  text-orientation: upright; /* Set the text orientation to upright */
+  transform: rotate(360deg); /* Rotate the text 180 degrees to make it vertical */
+  position: absolute; /* Fixed position to keep it in place */
+  top: 53%; /* Adjust the top position as needed */
+  left: 50px; /* Adjust the left position as needed */
+  transform-origin: right bottom; /* Set the transform origin to the bottom right */
+  background-color: #000000; /* Set the background color as needed */
+  padding: 10px; /* Add padding for better visibility */
+  z-index: 3; /* Ensure the text is above other elements */
+}
+
+.vertical-text5 {
+  writing-mode: vertical-lr; /* Set the writing mode to vertical */
+  text-orientation:sideways; /* Set the text orientation to upright */
+  transform: rotate(180deg); /* Rotate the text 180 degrees to make it vertical */
+  position: absolute; /* Fixed position to keep it in place */
+  top: 170%; /* Adjust the top position as needed */
+  left: 85%; /* Adjust the left position as needed */
+  transform-origin: right bottom; /* Set the transform origin to the bottom right */
+  background-color: #000000; /* Set the background color as needed */
+  padding: 10px; /* Add padding for better visibility */
+  z-index: 3; /* Ensure the text is above other elements */
+}
+
+.vertical-text6 {
+  writing-mode: vertical-lr; /* Set the writing mode to vertical */
+  text-orientation: upright; /* Set the text orientation to upright */
+  transform: rotate(360deg); /* Rotate the text 180 degrees to make it vertical */
+  position: absolute; /* Fixed position to keep it in place */
+  top: 90%; /* Adjust the top position as needed */
+  right: 290px; /* Adjust the left position as needed */
+  transform-origin: right bottom; /* Set the transform origin to the bottom right */
+  background-color: #000000; /* Set the background color as needed */
+  padding: 10px; /* Add padding for better visibility */
+  z-index: 3; /* Ensure the text is above other elements */
+}
+
+
+.image-gallery18 {
+  margin-top: 310%;
+  margin-left: -350px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns */
+  grid-gap: 10px; /* Adjust the gap between images */
+}
+
+.image-gallery18 img {
+  width: 100%; /* Adjust the width as needed */
+  height: 500px; /* Adjust the height as needed */
+  display: block;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-gallerynew {
+  display: flex;
+  justify-content:center;
+  margin-top: 35%;
+  margin-left: 0;
+
+}
+
+.image-gallerynew img {
+  width:  39%; /* Adjust the width as needed to fit two images beside each other */
+  height: auto;
+
+}
+/* Add this to your existing CSS or create a new CSS file */
+
+.image-gallery2 {
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+  position: absolute;
+  top: 115%; /* Adjust the top position to place it below the rectangle */
+}
+
+.image-gallery2 img {
+  width: 50%; /* Adjust the width of the images as needed */
+  height: auto;
+}
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.image-gallery3 {
+  display: flex; /* Use flexbox to create a row layout */
+  justify-content: space-between; /* Space evenly between images */
+  position: absolute;
+  width: 80%;
+  top: 158%; /* Adjust the top position to place it below image-gallery2 */
+}
+
+.image-gallery3 img {
+  width: 32%; /* Set the width of each image */
+  margin-bottom: 10px; /* Add margin between images */
+  object-fit: cover; /* Maintain image aspect ratio */
+}
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.image-gallery4 {
+  justify-content: space-between; /* Space evenly between images */
+  position: absolute;
+  top: 170% /* Adjust the top position to place it below image-gallery2 */
+}
+
+.image-gallery4 img {
+  width: 48%; /* Set the width of each image */
+
+  object-fit: cover; /* Maintain image aspect ratio */
+  position: relative; /* Enable relative positioning */
+
+}
+
+
+/* Your existing modal styles */
+.yourExistingModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  max-height: 80%;
+  width: auto;
+}
+
+.yourExistingModalContent {
+  max-width: 100%;
+  height: auto;
+}
+
+.yourExistingClose {
+  color: black;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+
+
+/* Title of webiste 18- new*/
+
+.h1-18 {
+  margin-top: 200px;
+  margin-left: 200px;
+  font-family: 'Orbitron', sans-serif;
+  color: #000000;
+  font-size: 90px;
+  position: relative;
+  z-index: 2;
+}
+
+.h1-18::before {
+  content: "";
+  border-top: 30px solid #f50000;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  top: 55%;
+  right: 100%;
+}
+
+.h1-new {
+  margin-top: 200px;
+  margin-left: 200px;
+  font-family: 'Orbitron', sans-serif;
+  color: #000000;
+  font-size: 90px;
+  position: relative;
+  z-index: 2;
+}
+
+.h1-new::before {
+  content: "";
+  border-top: 30px solid #f50000;
+  position: absolute;
+  width: 900px;
+  height: 500px;
+  top: 55%;
+  right: 100%;
+}
+
+/* Footer styling  for every page*/
+.footer-h1 {
+  width: 100%;
+  background-color: rgb(9, 9, 9);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 75%; /* Adjust the margin-top as needed */
+  clear: both;
+}
+.footernote-h1 {
+  font-size: 14px; /* Set your desired font size */
+  line-height: 1.5; /* Set your desired line height */
+}
+
+.footernote-h1 p {
+  margin: 0; /* Remove default margin */
+}
+
+/* Footer styling  for every page*/
+.footer-h2 {
+  width: 100%;
+  background-color: rgb(9, 9, 9);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 270%; /* Adjust the margin-top as needed */
+  clear: both;
+}
+.footernote-h2 {
+  font-size: 14px; /* Set your desired font size */
+  line-height: 1.5; /* Set your desired line height */
+}
+
+.footernote-h2 p {
+  margin: 0; /* Remove default margin */
+}
+
+
+/* Media query for smaller screens */
+ /* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}
+  /* Adjust the font size and margins for smaller screens */
+  .P-time1 {
+    font-size: 40px;
+    margin-left: 10px;
+    top: 10px;
+  }
+
+  .h1-new {
+    font-size: 60px;
+    margin-left: 10px;
+  }
+
+
+  .text8 {
+    font-size: 20px;
+    margin-top: auto;
+    margin-right: -10px;
+  }
+  .text6
+  {
+    font-size: 50px;
+    margin-top: auto;
+    margin-right: -60px;
+  }
+
+  /* Adjust the width of images for smaller screens */
+ 
+  .image8,
+  .image-gallerynew img,
+  .image-gallery2 img {
+    width: 100%; /* Adjust the width as needed */
+  }
+  .image7 {
+   
+    margin-top: 350px;
+    width: 45%; /* Make the image take the full width of its container */
+    height: 10%;
+    margin-left: 0; /* Remove the negative margin */
+  }
+.image-gallery2{
+  width: 50%;
+  margin-right: 50%;
+}
+.image-gallerynew{
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 220%;
+}
+  /* Add padding or margins to space out elements on smaller screens */
+  .text7 {
+    margin-top: 26%;
+    text-align: left;
+    left: 390px;
+    font-size: 20px;
+    display: visible;
+  
+  }
+  .text6{ display: flex;
+  margin-top: 35%;}
+
+  .text8 {
+    margin-top: 10px;
+  }
+
+  .rectangle {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+
+  .h1-18 {
+    font-size: 60px;
+    margin-left: 10px;
+  }
+
+  .text,
+  .text2,
+  .text3,
+  .text4,
+  .text5 {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  /* Adjust the width of images for smaller screens */
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5,
+  .image6,
+  .image-gallery18 img {
+    width: 100%; /* Adjust the width as needed */
+  }
+
+  /* Add padding or margins to space out elements on smaller screens */
+  .text2,
+  .text4,
+  .text5 {
+    margin-top: 10px;
+  }
+
+  .rectangle {
+    margin-top: 10px;
+  }
+}
+/* About me page */
+
+.intro {
+  text-align: left;
+  margin-left: 40%;
+  margin-top: 20%;
+  color: #ffffff;
+}
+
+/* ... (other styles) */
+
+
+.aboutme-b {
+  width: 100%;
+  right: 260px;
+  margin-top: -45%;
+  z-index: 1;
+  position: relative;
+  overflow: hidden; /* Clear floats */
+}
+
+.navigation-am {
+  position: absolute;
+  font-family: orbitron;
+  top: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 3;
+  width: 50%;
+  background-color: #1f1f1f;
+}
+
+.sky-img {
+  background-image: url(/Illustration/skyy.jpg);
+  background-size: 100%;
+  background-position: 80% 70%; /* Adjust as needed */
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 32%;
+  left: 0;
+  width: 100%;
+  height: 23%;
+  z-index: -1;
+}
+
+.skills-t {
+  color: #000000;
+  position: absolute;
+  font-size: 35px;
+  left: 27.8%; /* Adjust as needed */
+  top: 70%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text within its container */
+
+}
+.rectangle2 {
+  position: absolute;
+  top: 76%;
+  right: 0;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(184, 192, 200);
+  z-index: 2;
+}
+.container {
+  position: relative;
+  top: 250px; /* Adjust the top position as needed */
+  width: 120%;
+  height: auto;
+  right: 50px;
+  background-color: rgb(183, 191, 199);
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html { width: 90%; background-color: #000000; }
+.css { width: 80%; background-color: #000000; }
+.js { width: 65%; background-color: #000000; }
+.ms { width: 30%; background-color: #000000; }
+.php { width: 10%; background-color: #000000; }
+
+.skill-p{
+  position: relative;
+  top: 250px; /* Adjust the top position as needed */
+  width: 100%;
+  right: 50px;
+  height: auto;
+  color: #000000;
+
+}
+.abtm-p{
+  text-align: left;
+}
+.w3-button {
+  display: block;
+  margin: 50px ; /* Adjust the margin-top and margin-bottom as needed */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Orbitron;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Center the button using flexbox */
+.w3-section {
+  display: flex;
+  position: relative;
+  top: 250px;
+  left: 270px;
+  justify-content: center;
+}
+
+
+.w3-light-grey {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.w3-button:hover {
+  background-color: #ddd;
+}
+
+
+
+
+.footer-h {
+  position: relative; /* Use fixed positioning for the footer */
+  bottom: 0;       /* Place it at the bottom of the viewport */
+  top: 300px;
+  width: 100%;      /* Takes up the full width of the viewport */
+  background-color: rgb(9, 9, 9);  /* Background color */
+  color: rgb(173, 173, 173);       /* Text color */
+  font-size: 16px;  /* Font size */
+  text-align: center;  /* Center-aligns the text */
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  padding: 5px;     /* 5 pixels of padding inside the footer */
+}
+.content {
+  margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+}
+
+
+/*ui*/
+
+/*header for the illustration page */
+.header-UI {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  height: 400px;
+  background-image: url(/Graphic/ui/uibanner.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header-UI h1::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 10px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+/* Common h1 styles for both headers */
+.header-UI h1 {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-size: 150px;
+  margin: 10px;
+  color: #ffffff; /* Text color of the h1 */
+}
+
+
+.ui-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.ui-item {
+  max-width: 300px;
+  margin-top: 80px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+.ui-item img {
+  width: 100%;
+  height: auto;
+}
+
+.ui-item h2 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.ui-item p {
+  color: #666;
+}
+
+.navigation-ui {
+  position:absolute;
+  top: 450px; /* Set the top position below the header height */
+  left: 50%; /* Center the navigation horizontally */
+  transform: translateX(-50%); /* Center the navigation horizontally */
+  display: flex;
+  justify-content: space-evenly;
+  font-family: orbitron;
+  width: 50%; /* Adjust the width of the navigation box as needed */
+  background-color: #1f1f1f; /* Optional: Set a background color for the navigation */
+}
+
+.footer-hui {
+  position: relative; /* Use fixed positioning for the footer */
+  bottom: 0;       /* Place it at the bottom of the viewport */
+  top: 20px;
+  width: 100%;      /* Takes up the full width of the viewport */
+  background-color: rgb(9, 9, 9);  /* Background color */
+  color: rgb(173, 173, 173);       /* Text color */
+  font-size: 16px;  /* Font size */
+  text-align: center;  /* Center-aligns the text */
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  padding: 5px;     /* 5 pixels of padding inside the footer */
+}
