@@ -1,0 +1,702 @@
+/*Hoomepage*/
+html {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    font-family: Orbitron;
+    color: #ffffff;
+}
+
+p.banner {
+    background-color: #FF4339;
+    text-align: center;
+    font-family: Orbitron;
+    color: #b1b1b1;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 75%;
+    right: 20%;
+    transform: rotate(30deg);
+    padding: 10px;
+}
+
+
+/* Lesss go, the freaking content home */
+.content-home {
+    transition: margin-right 0.5s; /* Add transition for a smooth effect */
+}
+
+/*content general*/
+.content{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+
+
+/*Background for homepage too big but whateverrrrr syte home*/
+.bg {
+    background-size: cover;
+    display: block;
+    padding: auto;
+    padding-top: 0;
+    margin-left: auto;
+    margin-top: -29px;
+    margin-right: auto;
+    width: 100%;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -250px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Centered text */
+#centered {
+    transition: margin-right 0.5s;
+    display: block;
+    font-family: Orbitron;
+    font-size: 25px;
+    background-color: #d80202;
+    background-size: 200px;
+    border-radius: 20px;
+    border-style: inset;
+    border-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    position:sticky;
+    top: 116.52%;
+    left: 75%;
+    cursor: pointer;
+    margin-right: 0;
+}
+  /* break away from homepage*/
+
+/* Navigation Styles */
+.navigation {
+    position:absolute;
+    top: 500px; /* Set the top position below the header height */
+    left: 50%; /* Center the navigation horizontally */
+    transform: translateX(-50%); /* Center the navigation horizontally */
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%; /* Adjust the width of the navigation box as needed */
+    background-color: #1f1f1f; /* Optional: Set a background color for the navigation */
+}
+.navigation-illu{
+    position: absolute;
+    font-family: orbitron;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 3;
+    width: 50%;
+    background-color: #1f1f1f;
+}
+
+/* Navigation dropdown */
+.portfolio-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.portfolio-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #1f1f1f;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.portfolio-dropdown:hover .portfolio-content {
+    display: block;
+}
+
+.portfolio-content a {
+    display: block;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.portfolio-content a:hover {
+    background-color: #f1f1f1;
+    color: #1f1f1f;
+}
+
+
+.portfolio-dropdown:hover .portfolio-content {
+    display: block;
+}
+
+
+/*Style the buttons of Naavigation */
+.button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.button:hover {
+    color: rgb(155, 155, 155);
+}
+
+.button:active {
+    color: rgb(140, 140, 140);
+    text-decoration: underline;
+    -webkit-text-decoration-color: red; /* Safari */
+    text-decoration-color: red;
+}
+
+/* Button of the active site */
+.button2 {
+    color: rgb(253, 253, 253);
+    text-decoration: underline;
+    position: relative;
+    top: 20px; 
+    margin: 20px;
+    -webkit-text-decoration-color: red; /* Safari */
+    text-decoration-color: red;
+}
+.button3 {
+    color: rgb(253, 253, 253);
+    text-decoration: underline;
+    position: relative;
+    top: 0; 
+    margin: 20px;
+    -webkit-text-decoration-color: red; /* Safari */
+    text-decoration-color: red;
+}
+
+/* Footer styling  for every page*/
+.footer-h {
+    bottom: 0;       /* Plarced at the bottom of the viewport */
+    width: 100%;      /* Takes up the full width of the viewport */
+    background-color: rgb(9, 9, 9);  /* Background color */
+    color: rgb(173, 173, 173);       /* Text color */
+    font-size: 16px;  /* Font size */
+    text-align: center;  /* Center-aligns the text */
+    margin: 0;        /* No margin */
+    padding: 5px;     /* 5 pixels of padding inside the footer */
+}
+
+
+.footernote-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* ... Portfolio  CSS styles ... */
+
+/* Header  portfilio page Styles */
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    height: 400px;
+    background-image: url(/Illustration/geenleo\ -\ Kopie.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    animation-name: slideshow;
+    animation-duration: 15s; /* Total duration for one loop of the animation */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slideshow {
+    0%, 20% {background-image: url(/Illustration/geenleo\ -\ Kopie.png);} /* First slide, stays longer */
+    33.33% {background-image: url(/Graphic/nike\ poster2.2.png);} /* Second slide */
+    66.66% {background-image: url(/3D/Nike\ poster\ 2.png);} /* Third slide */
+    100% {background-image: url(/Illustration/geenleo\ -\ Kopie.png);} /* Back to the first slide */
+  }
+  .header  h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; /* Adjust the distance between text and underline */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px; /* Adjust the width of the rounded underline */
+    height: 10px; /* Adjust the height of the rounded underline */
+    background-color: #f3f3f3; /* Adjust the color of the rounded underline */
+    border-radius: 5px; /* Adjust the border-radius for a rounded effect */
+}
+
+
+  /*header for the illustration page */
+.header-illustration {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    height: 400px;
+    background-image: url(/Illustration/Image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+.header-illustration h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+/* Common h1 styles for both headers */
+.header h1,
+.header-illustration h1 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 150px;
+    margin: 10px;
+    color: #ffffff; /* Text color of the h1 */
+}
+
+
+/*General cotainer and conntent for the whole portfolio*/
+
+.content-portfolio {
+    max-width: 100%;
+    overflow: hidden; /* Add this line to hide overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-container { 
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 150px; /* Add a margin at the top for spacing */
+}
+
+.portfolio-item {
+    top: 35px; 
+    position: relative;
+    width: 100%; /* Adjust width as needed for responsiveness */
+    margin-bottom: 20px;
+    z-index: 0; /* Set a lower stack order */
+}
+
+/* Example styles for the paragraph */
+ .p-text {
+    position: relative;
+    color: #000000; /* Set the text color to black for visibility */
+    font-size: 12px;
+    bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    /* Add other styles as needed */
+}
+
+.portfolio-item img {
+    top: 500px;
+    width: 100%; /* Make images fill their container */
+    height: 350px; /* Adjust height as needed */
+    margin-bottom: 75px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+
+.portfolio-item h3 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: Orbitron;
+    font-size: 80px;
+}
+
+
+.portfolio-item h3::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+/*illustration imag content*/
+.portfolio-item-illu .img-illu {
+    top: 500px;
+    width: 100%; /* Make images fill their container */
+    height: 350px; /* Adjust height as needed */
+    margin-bottom: 75px;
+    margin-top: 75px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+
+/*3D content class style*/
+/* Example CSS for the modified content section */
+.content-portfolio-row {
+    padding: 20px; /* Adjust as needed */
+    margin-top: 200px;
+}
+
+.portfolio-container-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item-row {
+    width: 30%; /* Adjust the width as needed to fit three items in a row */
+    margin: 10px;
+    text-align: center;
+}
+
+.portfolio-item-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+/*3d contentn row line*/
+.content-portfolio-row {
+    padding: 20px; /* Adjust as needed */
+}
+
+.portfolio-container-row {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling if items exceed the viewport */
+}
+
+.portfolio-item-row {
+    flex: 0 0 auto;
+    margin: 10px;
+    text-align: center;
+}
+
+.portfolio-item-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+
+
+
+/*header for graphic*/
+.header-graphic {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    height: 400px;
+    background-image: url(/3D/Nike\ poster\ 2.1.png);
+    background-position: 20px 20px 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .header-graphic h1 {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    font-size: 150px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.header-graphic h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+
+/*header for 3d*/
+.header-3d {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    height: 400px;
+    background-image: url(/3D/Fangposter2.2.png);
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .header-3d h1 {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    font-size: 150px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.header-3d h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+/* H1 Styles */
+.header h1 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 150px;
+    margin: 10px; /* Adjust the margin as needed */
+    color: #ffffff; /* Text color of the h1 */
+}
+.header  h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; /* Adjust the distance between text and underline */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px; /* Adjust the width of the rounded underline */
+    height: 10px; /* Adjust the height of the rounded underline */
+    background-color: #f3f3f3; /* Adjust the color of the rounded underline */
+    border-radius: 5px; /* Adjust the border-radius for a rounded effect */
+}
+
+/*header for about me*/
+.header-aboutme {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    height: 400px;
+    background-image: url(/Illustration/2018-2021/liamcolor2.png);
+    background-position: 20px 20px 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .header-aboutme h1 {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 100px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.header-aboutme h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+
+/*triangle for portfolio*/
+.triangle {
+    position: absolute;
+    width: 100%;
+    height: 200px; /* Adjust the height of the triangle */
+    top: calc(75% - 100px); /* This should align the bottom of the triangle with the bottom of the header */
+    right: 0;
+    overflow: hidden;
+}
+
+.triangle::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-size:cover;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+
+/*triangle for illustration*/
+.triangle-i {
+    position: absolute;
+    width: 100%;
+    height: 200px; /* Adjust the height of the triangle */
+    top: calc(75% - 100px); /* This should align the bottom of the triangle with the bottom of the header */
+    right: 0;
+    overflow: hidden;
+}
+
+.triangle-i::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Illustration/purpleleo\ -\ Kopie.png);
+    background-size:cover;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+
+
+/*Triangle for graphic*/
+.triangle-g {
+    position: absolute;
+    width: 100%;
+    height: 200px; /* Adjust the height of the triangle */
+    top: calc(75% - 100px); /* This should align the bottom of the triangle with the bottom of the header */
+    right: 0;
+    overflow: hidden;
+}
+
+.triangle-g::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(/3D/Rectangle\ 1.png);
+    background-size:cover;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+
+/*Triangle for 3d*/
+.triangle-d {
+    position: absolute;
+    width: 100%;
+    height: 150px; /* Adjust the height of the triangle */
+    top: calc(88% - 100px); /* This should align the bottom of the triangle with the bottom of the header */
+    right: 0;
+    overflow: hidden;
+}
+
+.triangle-d::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    background-size:cover;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+
+
+/*3d images modal*/
+/* Updated Modal styles */
+.modal {
+    display: none; /* Set initial display to none */
+    position: fixed; /* Change to fixed for centered positioning */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: #000000;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    max-height: 70vh; /* Set maximum height to 70% of the viewport height */
+}
+
+.close {
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .triangle {
+        border-left: 100vw solid transparent; /* For smaller screens, make the triangle full width */
+        border-bottom: 50px solid #111; /* Adjust the size for smaller screens */
+    }
+}
