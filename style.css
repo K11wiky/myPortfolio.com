@@ -278,6 +278,17 @@ p.banner {
     background-size: 100% 100%;
   }
 
+  
+/* Common h1 styles for both headers */
+.header h1,
+.header-illustration h1 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 150px;
+    margin: 10px;
+    color: #000000; /* Text color of the h1 */
+}
 .header-illustration h1::after {
     content: '';
     position: absolute;
@@ -290,16 +301,6 @@ p.banner {
     border-radius: 5px;
 }
 
-/* Common h1 styles for both headers */
-.header h1,
-.header-illustration h1 {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    font-size: 150px;
-    margin: 10px;
-    color: #ffffff; /* Text color of the h1 */
-}
 
 
 /*General cotainer and conntent for the whole portfolio*/
@@ -444,7 +445,7 @@ p.banner {
     margin-bottom: 100px;
     justify-content: space-between;
     height: 400px;
-    background-image: url(//3D/Nike\ poster\ 2.1.png);
+    background-image: url(3D/Nike\ poster\ 2.1.png);
     background-position: 20px 20px 10px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
