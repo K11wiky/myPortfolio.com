@@ -273,7 +273,7 @@ p.banner {
     margin-bottom: 100px;
     justify-content: space-between;
     height: 400px;
-    background-image: url(Image.jpeg);
+    background-image: url(/Illustration/Image.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -298,7 +298,7 @@ p.banner {
     right: 5%;
     font-size: 150px;
     margin: 10px;
-    color: #ffffff; /* Text color of the h1 */
+    color: #000000; /* Text color of the h1 */
 }
 
 
