@@ -3,10 +3,10 @@
 // Assuming you have an array of SVG paths corresponding to each image
 var svgPaths = {
 
-    '/Graphic/nike.png': '/Graphic/nike1.svg',
-    '/Graphic/japan.png': '/Graphic/nike2.svg',
-    '/Graphic/nike poster2.png': '/Graphic/nike3.svg',
-    '/Graphic/nikepostrt3.1.png': '/Graphic/nike4.svg'
+    'Graphic/nike.png': 'Graphic/nike1.svg',
+    'Graphic/japan.png': 'Graphic/nike2.svg',
+    'Graphic/nike poster2.png': 'Graphic/nike3.svg',
+    'Graphic/nikepostrt3.1.png': 'Graphic/nike4.svg'
 };
 function openModal(imagePath) {
     var modal = document.getElementById("myModal");
