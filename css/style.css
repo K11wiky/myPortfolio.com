@@ -247,10 +247,10 @@ p.banner {
   }
   
   @keyframes slideshow {
-    0%, 20% {background-image: url(/Illustration/geenleoKopie.png);} /* First slide, stays longer */
-    33.33% {background-image: url(/Graphic/nikeposter2.2.png);} /* Second slide */
-    66.66% {background-image: url(/3D/Nikeposter2.png);} /* Third slide */
-    100% {background-image: url(/Illustration/geenleoKopie.png);} /* Back to the first slide */
+    0%, 20% {background-image: url(../Illustration/geenleoKopie.png);} /* First slide, stays longer */
+    33.33% {background-image: url(../Graphic/nikeposter2.2.png);} /* Second slide */
+    66.66% {background-image: url(../3D/Nikeposter2.png);} /* Third slide */
+    100% {background-image: url(../Illustration/geenleoKopie.png);} /* Back to the first slide */
   }
   .header  h1::after {
     content: '';
