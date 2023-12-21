@@ -87,7 +87,7 @@
     margin-bottom: 100px;
     justify-content: space-between;
     height: 400px;
-    background-image: url(/Illustration/jae22.png);
+    background-image: url(../Illustration/jae22.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -136,7 +136,7 @@ body {
   margin-bottom: 100px;
   justify-content: space-between;
   height: 400px;
-  background-image: url(/Illustration/2018_2021/lay2.png);
+  background-image: url(../Illustration/2018_2021/lay2.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -805,7 +805,7 @@ body {
 }
 
 .sky-img {
-  background-image: url(/Illustration/skyy.jpg);
+  background-image: url(../Illustration/skyy.jpg);
   background-size: 100%;
   background-position: 80% 70%; /* Adjust as needed */
   background-repeat: no-repeat;
@@ -932,7 +932,7 @@ body {
   margin-bottom: 100px;
   justify-content: space-between;
   height: 400px;
-  background-image: url(/Graphic/ui/uibanner.png);
+  background-image: url(../Graphic/ui/uibanner.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

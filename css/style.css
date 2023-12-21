@@ -273,7 +273,7 @@ p.banner {
     margin-bottom: 100px;
     justify-content: space-between;
     height: 400px;
-    background-image: url(/Illustration/Image.jpeg);
+    background-image: url(../Illustration/Image.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -444,7 +444,7 @@ p.banner {
     margin-bottom: 100px;
     justify-content: space-between;
     height: 400px;
-    background-image: url(/3D/Nikeposter2.1.png);
+    background-image: url(../3D/Nikeposter2.1.png);
     background-position: 20px 20px 10px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -480,7 +480,7 @@ p.banner {
     margin-bottom: 100px;
     justify-content: space-between;
     height: 400px;
-    background-image: url(/3D/Fangposter2.2.png);
+    background-image: url(../3D/Fangposter2.2.png);
 
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -535,7 +535,7 @@ p.banner {
     margin-bottom: 100px;
     justify-content: space-between;
     height: 400px;
-    background-image: url(/Illustration/2018_2021/liamcolor2.png);
+    background-image: url(../Illustration/2018_2021/liamcolor2.png);
     background-position: 20px 20px 10px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -598,7 +598,7 @@ p.banner {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/Illustration/purpleleoKopie.png);
+    background-image: url(../Illustration/purpleleoKopie.png);
     background-size:cover;
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
 }
@@ -619,7 +619,7 @@ p.banner {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/3D/Rectangle1.png);
+    background-image: url(../3D/Rectangle1.png);
     background-size:cover;
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
 }
