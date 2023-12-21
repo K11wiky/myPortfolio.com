@@ -237,7 +237,7 @@ p.banner {
     margin-bottom: 100px;
     justify-content: space-between;
     height: 400px;
-    background-image: url(../Illustration/geenleoKopie.png);
+    background-image: url(.../Illustration/geenleoKopie.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center top;
