@@ -260,7 +260,7 @@ body {
   position: absolute;
   top: 0;
   left: 120px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .image10 {
@@ -269,7 +269,7 @@ body {
   position: absolute;
   top: 810px;
   left: -100px;
-  z-index: 0;
+  z-index: 1;
 }
 
 
