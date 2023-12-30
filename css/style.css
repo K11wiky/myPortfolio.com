@@ -563,6 +563,42 @@ p.banner {
 }
 
 
+/*header for Animation*/
+.header-animations {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    height: 400px;
+    background-image: url(../Illustration/2018_2021/monsta2.png);
+    background-position: 20px 20px 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .header-animations h1 {
+    position: absolute;
+    bottom: 15%;
+    left: 35%;
+    font-size: 150px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.header-animations h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+
 /*triangle for portfolio*/
 .triangle {
     position: absolute;
@@ -624,6 +660,7 @@ p.banner {
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
 }
 
+
 /*Triangle for 3d*/
 .triangle-d {
     position: absolute;
@@ -643,6 +680,27 @@ p.banner {
     background-size:cover;
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
 }
+
+/*Triangle for animation*/
+.triangle-a {
+    position: absolute;
+    width: 100%;
+    height: 150px; /* Adjust the height of the triangle */
+    top: calc(88% - 100px); /* This should align the bottom of the triangle with the bottom of the header */
+    right: 0;
+    overflow: hidden;
+}
+
+.triangle-a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-size:cover;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+
 
 
 /*3d images modal*/
@@ -690,8 +748,53 @@ p.banner {
     font-weight: bold;
     cursor: pointer;
 }
+.animations-container{
+    color: #000000;
+}
+.portfolio-item-row-animation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.portfolio-item-row-animation {
+    text-align: center;
+    margin: 20px;
+}
 
+.portfolio-item-row-animation video {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+/* Add a hover effect to the portfolio item */
+.portfolio-item-row-animation:hover {
+    border-radius: 0;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.footer-a {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footernote-a {
+    font-size: 14px;
+}
+
+.animations-container{
+    background-color: #000000;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 20px;
+
+}
 
 
 @media screen and (max-width: 767px) {

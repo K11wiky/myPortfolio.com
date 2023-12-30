@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Animations</title>
+</head>
+
+<body>
+    <header class="header-animations">
+        <!-- Navigation bar -->
+        <div class="navigation-illu">
+            <div class="portfolio-dropdown">
+                <a class="button2" href="#">ANIMATION</a>
+                <div class="portfolio-content">
+                    <a href="portfilioindex.html">Portfolio</a>
+                    <a href="graphic1.html">Graphic</a>
+                    <a href="3d.html">3D</a>
+                    <a href="art.html">Art</a>
+                </div>
+            </div>
+            <a class="button" href="aboutme.html">ABOUT ME</a>
+            <a class="button" href="../index.html">HOME</a>
+        </div>
+
+        <!-- Square Header -->
+        <div class="square"></div>
+        <!-- Triangle Above -->
+        <div class="triangle-a"></div>
+        <h1>Animations</h1>
+    </header>
+
+    <div class="content-portfolio-row">
+        <div class="animations-container">
+            <p>A small motion behind a whole story</p>
+            <div class="portfolio-container-row">
+                <!-- Sample Graphic Project 1 -->
+                <div class="portfolio-item-row-animation" onclick="openModal('../animation/animation1.mp4')">
+                    <video width="500" height="200" controls>
+                        <source src="../animation/animation1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="portfolio-item-row-animation" onclick="openModal('../animation/Animation2.mp4')">
+                    <video width="500" height="200" controls>
+                        <source src="../animation/Animation2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+        </div>
+    </div>
+
+    <footer class="footer-a">
+        <div class="footernote-a">
+            <p> © 2023 Your Name <br> All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>
