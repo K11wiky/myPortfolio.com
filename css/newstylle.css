@@ -791,15 +791,17 @@ body {
   overflow: hidden; /* Clear floats */
 }
 
+
 .navigation-am {
   position: absolute;
   font-family: orbitron;
   top: 500px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-27%);
   display: flex;
   justify-content: space-evenly;
   z-index: 3;
+  margin: auto;
   width: 50%;
   background-color: #1f1f1f;
 }
@@ -810,7 +812,7 @@ body {
   background-position: 80% 70%; /* Adjust as needed */
   background-repeat: no-repeat;
   position: absolute;
-  top: 32%;
+  top: 35%;
   left: 0;
   width: 100%;
   height: 23%;
