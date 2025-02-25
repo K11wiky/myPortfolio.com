@@ -496,25 +496,24 @@ body {
   height: auto;
 
 }
-/* Add this to your existing CSS or create a new CSS file */
+
 
 .image-gallery2 {
   display: flex;
   gap: 20px;
   max-width: 100%;
   position: absolute;
-  top: 115%; /* Adjust the top position to place it below the rectangle */
+  top: 115%;
 }
 
 .image-gallery2 img {
-  width: 50%; /* Adjust the width of the images as needed */
+  width: 50%; 
   height: auto;
 }
 
-/* Add this to your existing CSS or create a new CSS file */
 
 .image-gallery3 {
-  display: flex; /* Use flexbox to create a row layout */
+  display: flex; /* flexbox to create a row layout */
   justify-content: space-between; /* Space evenly between images */
   position: absolute;
   width: 80%;
@@ -527,7 +526,6 @@ body {
   object-fit: cover; /* Maintain image aspect ratio */
 }
 
-/* Add this to your existing CSS or create a new CSS file */
 
 .image-gallery4 {
   justify-content: space-between; /* Space evenly between images */
@@ -543,8 +541,7 @@ body {
 
 }
 
-
-/* Your existing modal styles */
+/*  existing modal styles */
 .yourExistingModal {
   display: none;
   position: fixed;
@@ -812,7 +809,7 @@ body {
   background-position: 80% 70%; /* Adjust as needed */
   background-repeat: no-repeat;
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 0;
   width: 100%;
   height: 23%;
